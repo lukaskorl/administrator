@@ -24,6 +24,9 @@
     "require-dev": {
         "mockery/mockery": "0.8.0"
     },
+    "replace": {
+        "frozennode/administrator": "self.version"
+    },
     "autoload": {
         "classmap": [
             "src/controllers"
